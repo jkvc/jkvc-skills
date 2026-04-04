@@ -1,5 +1,11 @@
 # jkvc-skills
 
+You're probably here because you found my github or I sent you a link to this. I promise I'm not trying to give you a virus. 
+
+Proudly tested extensively thru the last 4 months by claude code, cursor, and the goldfish brain of Junshen K Chen. 
+
+---
+
 Shared AI agent skills and rules. One repo, synced across machines, picked up by any agent that supports SKILL.md discovery.
 
 ## What's in here
