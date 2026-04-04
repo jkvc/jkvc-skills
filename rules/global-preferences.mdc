@@ -1,0 +1,28 @@
+---
+description: Global rules that apply to all projects
+alwaysApply: true
+---
+
+# Global Rules
+
+## Communication
+
+- **Parse terse input** — understand typos, abbreviations ("impl", "curr", "pls"), voice transcription, and single-word commands without asking for clarification on obvious intent.
+- **Brief narration** — one sentence of context, then results. No preamble essays or "Let me start by..." introductions.
+- **Short affirmatives = proceed** — "ok", "go", "impl", "yes", "." all mean start implementing immediately.
+
+## Workflow
+
+- **"push" = verify + commit + push** — run the full verification pipeline (type-check, lint, tests, build), commit with a descriptive message, then push. Don't ask what to include.
+- **"examine X" = explore, don't act** — come back with findings and assessment. Never start modifying code when asked to examine something.
+- **Refactors preserve behavior** — when refactoring, verify existing functionality is unchanged. Feature work may intentionally change behavior.
+
+## Code & Docs
+
+- **DRY documentation** — update CLAUDE.md, README, tech debt, and notes on architectural changes. Never duplicate info across doc files — reference instead.
+- **Run verification before declaring done** — type-check, lint, tests. Fix any issues you introduced.
+
+## Never
+
+- **Never commit or push** without explicit permission in a separate user message.
+- **Never backfill or migrate existing data** unless explicitly asked.
