@@ -22,6 +22,17 @@ alwaysApply: true
 - **DRY documentation** — update CLAUDE.md, README, tech debt, and notes on architectural changes. Never duplicate info across doc files — reference instead.
 - **Run verification before declaring done** — type-check, lint, tests. Fix any issues you introduced.
 
+## Implementation Assumptions
+
+When implementing non-trivial code, report any significant assumptions or design decisions made without explicit user direction. At the end of implementation, include a **"Assumptions & Decisions"** section with bullet points covering:
+
+- **What** — the decision or assumption made
+- **Where** — which file(s) / area it affects
+- **Why** — reasoning behind the choice
+- **Alternatives** — what you'd change if the user disagrees
+
+"Significant" means choices that affect behavior, data shape, API surface, naming conventions, architectural patterns, or scope boundaries — not routine implementation details like variable names or loop structure. Use best judgment.
+
 ## Never
 
 - **Never commit or push** without explicit permission in a separate user message.
