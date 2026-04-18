@@ -21,6 +21,11 @@ alwaysApply: true
 
 - **DRY documentation** — update CLAUDE.md, README, tech debt, and notes on architectural changes. Never duplicate info across doc files — reference instead.
 - **Run verification before declaring done** — type-check, lint, tests. Fix any issues you introduced.
+- **TDD where appropriate** — for non-trivial logic, write failing tests first, then implement to make them pass. Skip for glue code, config, or trivial changes where tests add no signal.
+
+## Quality
+
+- **Assume LLM review** — your output (including uncommited code) will be reviewed by a consortium of LLMs after implementation. Write code and comments that are clear, well-structured, and defensible under automated scrutiny. 
 
 ## Implementation Assumptions
 
