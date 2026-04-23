@@ -2,7 +2,7 @@
 
 You're probably here because you found my github or I sent you a link to this. I promise I'm not trying to give you a virus. 
 
-Proudly tested extensively thru the last 4 months by claude code, cursor, and the goldfish brain of Junshen K Chen. 
+Proudly tested extensively thru claude code, cursor, and the goldfish brain of Junshen K Chen. 
 
 ---
 
