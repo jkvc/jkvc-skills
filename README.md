@@ -14,9 +14,13 @@ Shared AI agent skills and rules. One repo, synced across machines, picked up by
 skills/                         # SKILL.md files — each skill is a directory
 ├── architecture-review/        # Deep codebase exploration and assessment
 ├── brainstorm/                 # Generate creative ideas for a goal
+├── code-review/                # Systematically review a PR or branch
 ├── critique/                   # Stress-test a specific idea or proposal
 ├── document/                   # Audit and update project documentation
+├── fresh-context/              # Run a task on a fresh subagent (no session bias)
 ├── interview/                  # Gather requirements through structured questions
+├── pressure-plan/              # Stress-test a plan for completeness against codebase
+├── retrospective/              # Fresh-eyes review of recent implementation
 ├── sync-ai-preferences/        # Sync global prefs from Cursor rules → Claude Code
 ├── tech-debt/                  # Record tech debt entries
 └── verify/                     # Run full verification pipeline (type-check, lint, test, build)
