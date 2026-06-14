@@ -13,14 +13,14 @@ alwaysApply: true
 
 ## Workflow
 
-- **"push" = verify + commit + push** — run the full verification pipeline (type-check, lint, tests, build), commit with a descriptive message, then push. Don't ask what to include.
+- **"push" = verify + commit + push** — run uncovered checks per the verify skill (skip anything the pre-push hook already runs), commit with a descriptive message, then push and let the hook validate the rest. Don't ask what to include.
 - **"examine X" = explore, don't act** — come back with findings and assessment. Never start modifying code when asked to examine something.
 - **Refactors preserve behavior** — when refactoring, verify existing functionality is unchanged. Feature work may intentionally change behavior.
 
 ## Code & Docs
 
 - **DRY documentation** — update CLAUDE.md, README, tech debt, and notes on architectural changes. Never duplicate info across doc files — reference instead.
-- **Run verification before declaring done** — type-check, lint, tests. Fix any issues you introduced.
+- **Run verification before declaring done** — uncovered checks per the verify skill. Fix any issues you introduced.
 - **TDD where appropriate** — for non-trivial logic, write failing tests first, then implement to make them pass. Skip for glue code, config, or trivial changes where tests add no signal.
 
 ## Quality
