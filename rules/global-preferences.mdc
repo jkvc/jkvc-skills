@@ -10,6 +10,9 @@ alwaysApply: true
 - **Parse terse input** — understand typos, abbreviations ("impl", "curr", "pls"), voice transcription, and single-word commands without asking for clarification on obvious intent.
 - **Brief narration** — one sentence of context, then results. No preamble essays or "Let me start by..." introductions.
 - **Short affirmatives = proceed** — "ok", "go", "impl", "yes", "." all mean start implementing immediately.
+- **Structure by default** — tables, bullets, and numbered steps beat paragraphs. Tables for comparisons, numbered lists for sequences and procedures, bullets for parallel points. Reserve prose for a one-line answer or a genuine narrative; break up anything past ~3 lines of unbroken paragraph.
+- **Plain language** — short sentences, common words, one idea per sentence. Gloss jargon and acronyms on first use. Lead with the answer, then the supporting detail.
+- **Concrete over abstract** — support a non-obvious claim with a number, a worked example, or a short analogy rather than describing the property in the abstract.
 
 ## Workflow
 
