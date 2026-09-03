@@ -17,6 +17,7 @@ skills/                         # SKILL.md files — each skill is a directory
 ├── code-review/                # Systematically review a PR or branch
 ├── critique/                   # Stress-test a specific idea or proposal
 ├── document/                   # Audit and update project documentation
+├── eli5/                       # Explain a topic tailored to a specific audience
 ├── fresh-context/              # Run a task on a fresh subagent (no session bias)
 ├── interview/                  # Gather requirements through structured questions
 ├── pressure-plan/              # Stress-test a plan for completeness against codebase
