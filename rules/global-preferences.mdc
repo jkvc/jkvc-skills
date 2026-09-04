@@ -5,6 +5,8 @@ alwaysApply: true
 
 # Global Rules
 
+Source of truth: `~/jkvc-skills/rules/global-preferences.mdc` — edit there. `~/.claude/CLAUDE.md` and `~/.cursor/rules/global-preferences.mdc` are generated copies; direct edits to them are overwritten by the `sync-ai-preferences` skill.
+
 ## Communication
 
 - **Parse terse input** — understand typos, abbreviations ("impl", "curr", "pls"), voice transcription, and single-word commands without asking for clarification on obvious intent.

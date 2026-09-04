@@ -1,3 +1,8 @@
+---
+name: sync-ai-preferences
+description: Sync global preferences from Cursor rules to Claude Code when the user asks to sync AI preferences or rules.
+---
+
 # Sync AI Preferences
 
 Syncs global preferences from the Cursor rules file (source of truth) to Claude Code's global CLAUDE.md.
